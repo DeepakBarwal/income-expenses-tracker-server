@@ -1,6 +1,6 @@
-Routes:
+# Routes
 
-Users Routes:
+## Users Routes:
 
 - POST /api/v1/users/register -> Register User
 
@@ -12,7 +12,7 @@ Users Routes:
 
 - PUT /api/v1/users -> Update User
 
-Accounts Routes:
+## Accounts Routes:
 
 - POST /api/v1/accounts -> Create Account
 
@@ -24,7 +24,7 @@ Accounts Routes:
 
 - PUT /api/v1/accounts/:id -> Update Account
 
-Transactions Route:
+## Transactions Route:
 
 - POST /api/v1/transactions -> Create Transaction
 
@@ -36,5 +36,6 @@ Transactions Route:
 
 - PUT /api/v1/transactions/:id -> Update Transaction
 
-Data Modelling:
+### Data Modelling:
+
 We have 3 entities here -> a user, an account and a transaction. A user can create many accounts and one account may have many transactions.
