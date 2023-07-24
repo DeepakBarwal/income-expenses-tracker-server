@@ -1,4 +1,4 @@
-import CrudRepository from "../crudRepository.js";
+import CrudRepository from "../CrudRepository.js";
 import Transaction from "../../models/Transaction.js";
 
 class TransactionRepository extends CrudRepository {

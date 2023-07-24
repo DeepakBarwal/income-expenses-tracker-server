@@ -1,5 +1,5 @@
 import Account from "../../models/Account.js";
-import CrudRepository from "../crudRepository.js";
+import CrudRepository from "../CrudRepository.js";
 import mongoose from "mongoose";
 
 class AccountRepository extends CrudRepository {
