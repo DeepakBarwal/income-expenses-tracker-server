@@ -39,3 +39,10 @@
 ### Data Modelling:
 
 We have 3 entities here -> a user, an account and a transaction. A user can create many accounts and one account may have many transactions.
+
+### Env variables required:
+
+- PORT
+- MONGO_URI
+- SALT_ROUNDS
+- JWT_SECRET
